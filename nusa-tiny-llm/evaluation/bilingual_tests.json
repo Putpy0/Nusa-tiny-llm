@@ -1,0 +1,156 @@
+[
+  {
+    "id": "test_001",
+    "lang": "en",
+    "type": "translation",
+    "prompt": "Translate to Indonesian: Hello, how are you?",
+    "expected_response": "Halo, apa kabar?"
+  },
+  {
+    "id": "test_002",
+    "lang": "id",
+    "type": "translation",
+    "prompt": "Terjemahkan ke Inggris: Selamat pagi, semoga harimu menyenangkan.",
+    "expected_response": "Good morning, have a nice day."
+  },
+  {
+    "id": "test_003",
+    "lang": "en",
+    "type": "qa",
+    "prompt": "What is the capital of Indonesia?",
+    "expected_response": "The capital of Indonesia is Jakarta."
+  },
+  {
+    "id": "test_004",
+    "lang": "id",
+    "type": "qa",
+    "prompt": "Apa ibukota Indonesia?",
+    "expected_response": "Ibukota Indonesia adalah Jakarta."
+  },
+  {
+    "id": "test_005",
+    "lang": "en",
+    "type": "instruction",
+    "prompt": "Write a short greeting message.",
+    "expected_response": "Hello! I hope you're having a wonderful day."
+  },
+  {
+    "id": "test_006",
+    "lang": "id",
+    "type": "instruction",
+    "prompt": "Tulis pesan salam pendek.",
+    "expected_response": "Halo! Semoga harimu menyenangkan."
+  },
+  {
+    "id": "test_007",
+    "lang": "en",
+    "type": "translation",
+    "prompt": "Translate to Indonesian: Thank you very much.",
+    "expected_response": "Terima kasih banyak."
+  },
+  {
+    "id": "test_008",
+    "lang": "id",
+    "type": "translation",
+    "prompt": "Terjemahkan ke Inggris: Sama-sama, sampai jumpa lagi.",
+    "expected_response": "You're welcome, see you again."
+  },
+  {
+    "id": "test_009",
+    "lang": "en",
+    "type": "qa",
+    "prompt": "What is 2 + 2?",
+    "expected_response": "2 + 2 equals 4."
+  },
+  {
+    "id": "test_010",
+    "lang": "id",
+    "type": "qa",
+    "prompt": "Berapa hasil 5 + 3?",
+    "expected_response": "5 + 3 sama dengan 8."
+  },
+  {
+    "id": "test_011",
+    "lang": "en",
+    "type": "instruction",
+    "prompt": "Name three colors in English.",
+    "expected_response": "Red, blue, and green."
+  },
+  {
+    "id": "test_012",
+    "lang": "id",
+    "type": "instruction",
+    "prompt": "Sebutkan tiga warna dalam Bahasa Indonesia.",
+    "expected_response": "Merah, biru, dan hijau."
+  },
+  {
+    "id": "test_013",
+    "lang": "en",
+    "type": "translation",
+    "prompt": "Translate to Indonesian: Good night, sleep well.",
+    "expected_response": "Selamat malam, tidur nyenyak."
+  },
+  {
+    "id": "test_014",
+    "lang": "id",
+    "type": "translation",
+    "prompt": "Terjemahkan ke Inggris: Saya suka makan nasi goreng.",
+    "expected_response": "I like to eat fried rice."
+  },
+  {
+    "id": "test_015",
+    "lang": "en",
+    "type": "qa",
+    "prompt": "Who is the president of Indonesia?",
+    "expected_response": "The current president of Indonesia is..."
+  },
+  {
+    "id": "test_016",
+    "lang": "id",
+    "type": "qa",
+    "prompt": "Siapa presiden pertama Indonesia?",
+    "expected_response": "Presiden pertama Indonesia adalah Ir. Soekarno."
+  },
+  {
+    "id": "test_017",
+    "lang": "en",
+    "type": "instruction",
+    "prompt": "Count from 1 to 5.",
+    "expected_response": "One, two, three, four, five."
+  },
+  {
+    "id": "test_018",
+    "lang": "id",
+    "type": "instruction",
+    "prompt": "Hitung dari 1 sampai 5.",
+    "expected_response": "Satu, dua, tiga, empat, lima."
+  },
+  {
+    "id": "test_019",
+    "lang": "en",
+    "type": "translation",
+    "prompt": "Translate to Indonesian: I love learning languages.",
+    "expected_response": "Saya suka belajar bahasa."
+  },
+  {
+    "id": "test_020",
+    "lang": "id",
+    "type": "translation",
+    "prompt": "Terjemahkan ke Inggris: Indonesia adalah negara yang indah.",
+    "expected_response": "Indonesia is a beautiful country."
+  },
+  {
+    "id": "test_021",
+    "lang": "en",
+    "type": "reasoning",
+    "prompt": "If today is Monday, what day will it be in 3 days?",
+    "expected_response": "Thursday"
+  },
+  {
+    "id": "test_022",
+    "lang": "id",
+    "type": "reasoning",
+    "prompt": "Jika hari ini Senin, hari apa 3 hari lagi?",
+    "expected_response": "Kamis"
+  }
+]
