@@ -1,0 +1,34 @@
+{
+  "tokenizer_type": "byte-level-bpe",
+  "vocab_size": 24576,
+  "languages": ["en", "id"],
+  "byte_fallback": true,
+  "special_tokens": {
+    "<pad>": 0,
+    "<bos>": 1,
+    "<eos>": 2,
+    "<unk>": 3,
+    "<sep>": 4,
+    "<user>": 5,
+    "<assistant>": 6
+  },
+  "max_input_chars_per_word": 200,
+  "min_frequency": 2,
+  "show_progress": true,
+  "split_digits": true,
+  "handle_whitespace": true,
+  "fusion_rules": [
+    "space_separator",
+    "punctuation_split",
+    "digit_grouping"
+  ],
+  "character_coverage": 1.0,
+  "unknown_token": "<unk>",
+  "padding_token": "<pad>",
+  "beginning_of_sentence_token": "<bos>",
+  "end_of_sentence_token": "<eos>",
+  "separator_token": "<sep>",
+  "user_token": "<user>",
+  "assistant_token": "<assistant>",
+  "description": "Custom byte-level BPE tokenizer for bilingual English-Indonesian text"
+}
